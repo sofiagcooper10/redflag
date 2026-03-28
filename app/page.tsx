@@ -71,7 +71,7 @@ export default function Home() {
     <main>
       <header>
         <div className="logo-wrap">
-          <svg width="34" height="34" viewBox="0 0 32 32" fill="none">
+          <svg width="40" height="40" viewBox="0 0 32 32" fill="none">
             <circle cx="16" cy="16" r="15" fill="#fee2e2" stroke="#ef4444" strokeWidth="1.5"/>
             <path d="M16 9v8" stroke="#ef4444" strokeWidth="2.5" strokeLinecap="round"/>
             <circle cx="16" cy="21.5" r="1.5" fill="#ef4444"/>
