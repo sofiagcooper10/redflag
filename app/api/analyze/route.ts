@@ -13,7 +13,7 @@ Return ONLY valid JSON with this exact structure, no markdown, no preamble:
 {
   "company": "Official company name",
   "summary": "A 2-3 paragraph narrative legal biography written in a journalistic, engaging tone. Tell the story of the company's legal history like a seasoned reporter would. Mention specific cases, dollar amounts, outcomes.",
-  "riskScore": <integer 0-100 where 0=no legal issues, 100=extremely high legal risk>,
+  "riskScore": <integer 0-100 measuring LEGAL risk only. Most large companies should score 20-50. Reserve 75+ only for companies with criminal convictions, massive fraud, or existential legal threats like Theranos or Enron. Meta, Google, Apple should score 40-55 at most>,
   "riskRationale": "1-2 sentences explaining the risk score",
   "timeline": [
     {
