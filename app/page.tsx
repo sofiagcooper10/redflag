@@ -78,7 +78,7 @@ export default function Home() {
           </svg>
           <div>
             <div className="logo-text">RED FLAG</div>
-            <div className="logo-sub">CORPORATE LEGAL INTELLIGENCE</div>
+            <div className="logo-sub">DUE DILIGENCE IN SECONDS</div>
           </div>
         </div>
         <div className="header-badge">AI-POWERED RESEARCH</div>
@@ -87,12 +87,13 @@ export default function Home() {
       {!result && !loading && (
         <section className="hero">
           <h1 className="hero-headline">
-            Every company<br />has a story.<br />
-            <span className="accent">Find theirs.</span>
+            Every lawsuit.<br />
+            Every settlement.<br />
+            <span className="accent">Every red flag.</span>
           </h1>
           <p className="hero-sub">
-            Enter any company name to instantly generate its complete legal biography —
-            lawsuits, settlements, regulatory actions, and an AI risk score.
+            Due diligence in seconds. Enter any company name to instantly 
+            generate its complete legal biography, case timeline, and AI risk score.
           </p>
         </section>
       )}

@@ -28,7 +28,7 @@ Return ONLY valid JSON with this exact structure, no markdown, no preamble:
   "verdict": "One punchy sentence — the bottom line on this company's legal reputation"
 }
 
-Sort timeline events chronologically, oldest first. Include only real, verifiable events.`;
+Sort timeline events chronologically, oldest first. Include only real, verifiable events. Never include citation tags, reference markers, HTML tags, or anything like <cite>, </cite>, [1], (1), or similar in any part of your response. Plain text only.`;
 
   try {
     const response = await fetch("https://api.anthropic.com/v1/messages", {
